@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
 This is a file to show weight and feature map.
+
+@author: York(xy_xie@nuaa.edu.cn)
 """
 import cv2
 from utils import getDataFromTxt, logger, processImage

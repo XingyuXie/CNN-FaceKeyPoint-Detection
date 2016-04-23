@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Apr 13 22:47:41 2016
+This is a file to show plot density picture.
 
-@author: dell
+@author: York(xy_xie@nuaa.edu.cn)
 """
 
 import numpy as np  
