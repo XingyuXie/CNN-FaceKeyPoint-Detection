@@ -11,13 +11,17 @@ Download the [images]((http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm)) a
 ### Train
 
 `generate.py, *.template` under `prototxt` are the code and template to generate prototxt files for Caffe models.
+
 `./level.py`will train the CNNs and use the mutilprocess to train level-2 and level-3. It will train every CNN seperately.
 
 ### Test
 
 `run.py` under `test` use Caffe model to predict data.
+
 `test.py` under `test` use Caffe model to predict keypoints and evaluate the mean error.
+
 `show_w&fea.oy` under `test` are the code to visualize the filiters and feature maps.
+
 `density_plot.py`under `test` are the code to polt the test-results density picture.
 
 ### Models
